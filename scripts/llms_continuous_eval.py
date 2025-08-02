@@ -13,7 +13,7 @@ import replicate
 # Config
 openai.api_key = 'Deepinfra API token goes here'
 openai.api_base = 'https://api.deepinfra.com/v1/openai'
-os.environ['Replicste API token'] = "API token goes here"
+os.environ['Replicate API token'] = "API token goes here"
 
 data_path = "./Data/SwahiliCulturalPsychData.csv"
 results_dir = "./Data/PredictionResults"
