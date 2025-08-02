@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "swahili_cultural_psych"
+version = "0.1.0"
+description = "Benchmarking Sociolinguistic Diversity in Swahili NLP: A Taxonomy-Guided Approach"
+authors = ["Oketch, Lalor,Abbasi"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.3.0"
+numpy "^1.24.0"
+scipy = "^1.11.0"
+tqdm = "^4.65.0"
+openai = "0.27.8"
+replicate = "^0.15.0"
+python-dotenv = "^1.0.1"
+matplotlib = "^3.9.2"
+pyqt6 = "^6.7.1"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+statsmodels = "^0.14.2"
+openpyxl = "^3.1.5"
+llama-cpp-python = "^0.3.7"
+huggingface-hub = "^0.28.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
