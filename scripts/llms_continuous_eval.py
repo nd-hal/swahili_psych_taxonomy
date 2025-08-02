@@ -50,7 +50,7 @@ def create_prompt_qwen(text, dimension_name, examples):
     few_shot_examples = "\n\n".join([f'TEXT: "{txt}"\nSCORE: {lbl:.4f}' for txt, lbl in examples])
     return f"""
 ### TASK: Assign a Score for "{dimension_name}"
-You are a helpful assistant specialized in Swahili and English psychometric text analysis.
+You are a psychometric AI trained to analyze Swahili and English text.
 
 ---
 HOW TO SCORE:
