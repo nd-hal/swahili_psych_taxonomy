@@ -21,7 +21,7 @@ We benchmark both pre-trained and instruction-tuned models (e.g., mBERT, XLM-RoB
 ---
 
 ## Repository Structure
-
+```
 swahili-psych-taxonomy/
 │
 ├── README.md               # Project overview
@@ -49,7 +49,7 @@ swahili-psych-taxonomy/
 │   └── run_taxonomy_analysis.py
 
 ---
-
+```
 ## Dataset Summary
 
 - 2,170 open-ended Swahili text responses
