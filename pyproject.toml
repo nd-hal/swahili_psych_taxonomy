@@ -2,7 +2,7 @@
 name = "swahili_cultural_psych"
 version = "0.1.0"
 description = "Benchmarking Sociolinguistic Diversity in Swahili NLP: A Taxonomy-Guided Approach"
-authors = ["Oketch, Lalor,Abbasi"]
+authors = ["Oketch, Lalor, Abbasi"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
