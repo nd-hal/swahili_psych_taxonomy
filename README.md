@@ -1,6 +1,6 @@
 # Benchmarking Sociolinguistic Diversity in Swahili NLP
 
-This repository accompanies the ACL submission:  
+This repository accompanies the paper submission:  
 **"Benchmarking Sociolinguistic Diversity in Swahili NLP: A Taxonomy-Guided Approach"**
 
 ---
@@ -16,12 +16,12 @@ The dataset captures rich sociolinguistic variation in real-world Swahili, inclu
 - Code-mixing
 - Loanwords
 
-We benchmark both pre-trained and instruction-tuned models (e.g., mBERT, XLM-RoBERTa, SwahBERT, LLaMA, Qwen) and analyze fairness and performance across demographic and linguistic axes.
+We benchmark both pre-trained and instruction-tuned models (e.g., mBERT, XLM-RoBERTa, SwahBERT, Llama, Qwen) and analyze fairness and performance across demographic and linguistic aspects.
 
 ---
 
 ## Repository Structure
-
+```
 swahili-psych-taxonomy/
 │
 ├── README.md               # Project overview
@@ -39,8 +39,8 @@ swahili-psych-taxonomy/
 │   └── 04_fairness_evaluation.ipynb
 │
 ├── models/
-│   ├── pretrained/         # Pretrained model configs or links
-│   └── LLMs/               # Large Language Model checkpoints/results
+│   ├── pretrained/         # Pretrained models
+│   └── LLMs/               # Large Language Models
 │
 ├── scripts/
 │   ├── preprocess_data.py
@@ -49,7 +49,7 @@ swahili-psych-taxonomy/
 │   └── run_taxonomy_analysis.py
 
 ---
-
+```
 ## Dataset Summary
 
 - 2,170 open-ended Swahili text responses
