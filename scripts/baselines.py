@@ -11,7 +11,7 @@ from sklearn.metrics import (
 )
 
 # Load your dataset
-data_path = "SwahiliCulturalPsychData.csv"
+data_path = "./Data/SwahiliCulturalPsychData.csv"
 df = pd.read_csv(data_path)
 
 # Dimensions to Evaluate
