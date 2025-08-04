@@ -23,7 +23,7 @@ openpyxl = "^3.1.5"
 llama-cpp-python = "^0.3.7"
 huggingface-hub = "^0.28.1"
 [tool.poetry.scripts]
-intersectionalBiasPlot = "scripts.intersectionalBiasPlot:main"
+r_analysis = "scripts.r_analysis:main"
 
 
 
