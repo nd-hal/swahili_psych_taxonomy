@@ -1,7 +1,7 @@
 # Benchmarking Sociolinguistic Diversity in Swahili NLP: A Taxonomy-Guided Approach
 
-This repository accompanies the paper submission:  
-**"Benchmarking Sociolinguistic Diversity in Swahili NLP: A Taxonomy-Guided Approach"**
+This repository accompanies the paper:  
+**Add PDF of the paper**
 
 ---
 
