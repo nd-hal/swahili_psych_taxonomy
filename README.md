@@ -20,35 +20,16 @@ We benchmark both pre-trained and instruction-tuned models (e.g., mBERT, XLM-RoB
 
 ---
 
-## Repository Structure
-```
-swahili-psych-taxonomy/
-│
-├── README.md               # Project overview
-├── LICENSE                 # Open source license
-├── .gitignore              # Files to ignore in Git
-│
-├── data/
-│   ├── raw/                # Original collected data (text + metadata)
-│   └── processed/          # Cleaned/standardized data for modeling
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_modeling.ipynb
-│   ├── 03_error_analysis.ipynb
-│   └── 04_fairness_evaluation.ipynb
-│
-├── models/
-│   ├── pretrained/         # Pretrained models
-│   └── LLMs/               # Large Language Models
-│
-├── scripts/
-│   ├── preprocess_data.py
-│   ├── train_model.py
-│   ├── evaluate_fairness.py
-│   └── run_taxonomy_analysis.py
+# Repository Structure
 
----
+```
+📂 Data/             # Contains the Swahili dataset and model predictions
+📂 Scripts/          # Python and R script(s) for model evaluation and plot generation
+📜 .gitattributes    # Git configuration file
+📜 README.md         # This file
+📜 poetry.lock       # Dependency lock file for reproducibility
+📜 pyproject.toml    # Configuration for managing dependencies with Poetry
+📜 requirements.txt  # Contains a list of dependencies required to run the scripts
 ```
 ## Dataset Summary
 
