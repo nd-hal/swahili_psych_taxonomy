@@ -24,32 +24,68 @@ We benchmark both pre-trained and instruction-tuned models (e.g., mBERT, XLM-RoB
 
 ```
 📂 Data/             # Contains the Swahili dataset and model predictions
+📂 Results/          # Folder to store outputs
 📂 Scripts/          # Python and R script(s) for model evaluation and plot generation
-📜 .gitattributes    # Git configuration file
 📜 README.md         # This file
 📜 poetry.lock       # Dependency lock file for reproducibility
 📜 pyproject.toml    # Configuration for managing dependencies with Poetry
-📜 requirements.txt  # Contains a list of dependencies required to run the scripts
 ```
 ## Dataset Summary
-
 - 2,170 open-ended Swahili text responses
 - Four psychometric tasks: Anxiety, Trust, Literacy, Numeracy
 - Annotated with demographic metadata: tribe, gender, age, education, income
-- Includes non-standard language features: Sheng, loanwords, dialectal Swahili, and code-mixing
+- Includes non-standard languistic features: Sheng, loanwords, dialectal Swahili, and code-mixing
 
 ---
 
 ## Tasks and Benchmarks
 
-We evaluate a range of multilingual and instruction-tuned models using both regression and classification tasks. Metrics include:
+We evaluate a range of multilingual pre-trained language and instruction-tuned models using both regression and classification tasks. Metrics include:
 
 - Pearson correlation and RMSE for regression
 - AUC and F1 for classification
 - Group fairness metrics such as Disparate Impact, ∆xAUC, and Fairness Violation
 
 ---
+# Setup & Installation
 
+This project uses **Poetry** for dependency management.
+
+1. Download pipx: https://pipx.pypa.io/stable/installation/
+2. Install poetry: https://python-poetry.org/docs/#installing-with-pipx
+3. To generate figures 2 and 6:
+
+```{python}
+poetry run python scripts/model_fairness_plots.py
+```
+
+4. To generate figure 3:
+This is an R-based visualization script that can be launched via a Python wrapper using Poetry.
+ Make sure you have:
+- Poetry installed (`pip install poetry`)
+- R and `Rscript` installed on your system
+- The file `scripts/intersectionalBiasPlot.R` in the repo
+
+### Then run the script
+```{python}
+poetry run python scripts/poetry run run-r-analysis
+```
+5. To generate figure 5:
+
+```{python}
+poetry run python scripts/error_analysis_plot.py
+```
+6. To generate PLMs predictions:
+
+```{python}
+poetry run python scripts/plms_eval.py
+```
+7.Run the following commands to generate the baseline predictions along with binary and continuous predictions from the LLMs:
+```{python}
+(i) poetry run python scripts/baselines.py
+(ii) poetry run python scripts/llms_binary_eval.py
+(iii) poetry run python scripts/llms_continuous_eval.py
+```
 ## Citation
 
 If you use this work, please cite:
