@@ -82,9 +82,11 @@ poetry run python scripts/plms_eval.py
 ```
 7.Run the following commands to generate the baseline predictions along with binary and continuous predictions from the LLMs:
 ```{python}
-(i) poetry run python scripts/baselines.py
-(ii) poetry run python scripts/llms_binary_eval.py
-(iii) poetry run python scripts/llms_continuous_eval.py
+poetry run python scripts/baselines.py
+
+poetry run python scripts/llms_binary_eval.py
+
+poetry run python scripts/llms_continuous_eval.py
 ```
 ## Citation
 
@@ -93,6 +95,15 @@ If you use this work, please cite:
 TBD
 
 ---
+# Contributors
+
+Kezia Oketch  
+John Lalor      
+Ahmed Abbasi    
+
+# Acknowledgments
+
+This research is supported by the University of Notre Dame's Human-centered Analytics Lab (HAL).
 
 ## License
 
