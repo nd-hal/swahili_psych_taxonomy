@@ -91,8 +91,15 @@ poetry run python scripts/llms_continuous_eval.py
 ## Citation
 
 If you use this work, please cite:
-
-TBD
+@misc{oketch2025benchmarkingsociolinguisticdiversityswahili,
+      title={Benchmarking Sociolinguistic Diversity in Swahili NLP: A Taxonomy-Guided Approach}, 
+      author={Kezia Oketch and John P. Lalor and Ahmed Abbasi},
+      year={2025},
+      eprint={2508.14051},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.14051}, 
+}
 
 ---
 # Contributors
